@@ -11,7 +11,7 @@ public class train {
         double discountSeniors = 0.6; //discount di 40%
         double totalCost = 0;
 
-        String pattern = "##.##0";
+        String pattern = "##.00";
         DecimalFormat decimalFormat = new DecimalFormat(pattern);
 
 //      Istanzio lo scanner
